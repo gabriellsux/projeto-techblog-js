@@ -117,3 +117,44 @@ h3 {
 }
 
 /* -- MAIN -- */
+
+main h2 {
+    margin-top: 8rem;
+}
+
+.main-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 38.4rem);
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.card {
+    width: 38.4rem;
+    height: 42.3rem;
+    margin-bottom: 6.8rem;
+    background: var(--white);
+    border-radius: 0.5rem;
+    border: 0.2rem solid var(--lilac);
+}
+
+.card__image {
+    height: 50%;
+    border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.card__image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.card__text {
+    padding: 3.2rem 2.4rem;
+}
+
+.card__text p {
+    margin-top: 1.2rem;
+    font-size: 1.8rem;
+    line-height: 150%;
+}
