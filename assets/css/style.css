@@ -239,3 +239,110 @@ form button {
 form button:hover {
     opacity: 0.9;
 }
+
+/* -- MEDIA QUERIES -- */
+@media (max-width: 1400px) {
+    .hero__text,
+    .hero__image {
+        padding-right: 2rem;
+    }
+
+    .hero__text {
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-cards {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 962px) {
+    .hero__image {
+        display: none;
+    }
+
+    .hero .container {
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 6.4rem;
+    }
+}
+
+@media (max-width: 779px) {
+    h1 {
+        font-size: 3rem;
+        line-height: 110%;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+        line-height: 115%;
+    }
+
+    .hero__text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 5.5rem;
+    }
+
+    .hero__text p {
+        font-size: 1.6rem;
+    }
+
+    main h2,
+    footer {
+        margin-top: 6.4rem;
+    }
+
+    .main-cards {
+        margin-top: 4rem;
+    }
+
+    .card {
+        margin-bottom: 3.2rem;
+    }
+
+    .card__text p {
+        font-size: 1.5rem;
+    }
+
+    .footer__content {
+        padding-top: 6.4rem;
+    }
+
+    .footer__title,
+    .footer__form {
+        padding: 0 1rem;
+    }
+
+    .footer__form form {
+        gap: 2rem;
+    }
+
+    form button {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero__image img {
+        width: 34rem;
+    }
+
+    .main-cards {
+        grid-template-columns: repeat(auto-fill, 34rem);
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
