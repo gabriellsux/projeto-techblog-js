@@ -67,3 +67,53 @@ h3 {
 }
 
 /* -- HEADER -- */
+.hero {
+    background: var(--lilac-light);
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12rem;
+}
+
+.hero__text {
+    max-width: 58.1rem;
+    padding: 13.5rem;
+}
+
+.hero__text span {
+    color: var(--lilac-dark);
+}
+
+.hero__text p {
+    font-size: 2.1rem;
+    line-height: 150%;
+    margin: 2.2rem 0 4.5rem 0;
+}
+
+.hero__text button {
+    padding: 1.4rem 3.2rem;
+    background-color: var(--lilac-dark);
+    color: var(--white);
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.hero__text button:hover {
+    opacity: 0.9;
+}
+
+.hero__image {
+    padding: 0 1rem;
+    margin-top: 8.7rem;
+}
+
+.hero__image img {
+    width: 100%;
+}
+
+/* -- MAIN -- */
