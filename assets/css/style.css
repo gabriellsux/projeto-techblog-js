@@ -101,6 +101,7 @@ h3 {
     text-transform: uppercase;
     border-radius: 0.5rem;
     border: none;
+    cursor: pointer;
 }
 
 .hero__text button:hover {
@@ -157,4 +158,84 @@ main h2 {
     margin-top: 1.2rem;
     font-size: 1.8rem;
     line-height: 150%;
+}
+
+/* -- FOOTER -- */
+footer {
+    background: var(--lilac);
+    margin-top: 8rem;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__content {
+    width: 59rem;
+    padding-top: 8.5rem;
+    text-align: center;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.footer__form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-bottom: 8rem;
+}
+
+form input {
+    height: 5.9rem;
+    padding-left: 2rem;
+    border-radius: 0.4rem;
+    border: 0.2rem solid var(--gray-light) !important;
+    font-family: var(--font-roboto);
+}
+
+form input:active,
+form input:focus,
+form textarea:active,
+form textarea:focus {
+    outline-color: var(--lilac-dark);
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: var(--gray);
+    font-family: var(--font-roboto);
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+form textarea {
+    height: 16.5rem;
+    padding: 2.1rem 0 0 1.5rem;
+    border-radius: 0.6rem;
+    border: none;
+    resize: none;
+    font-family: var(--font-roboto);
+}
+
+form button {
+    padding: 1.5rem 0;
+    background: var(--lilac-dark);
+    color: var(--white);
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0.6rem;
+    border: none;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+form button:hover {
+    opacity: 0.9;
 }
